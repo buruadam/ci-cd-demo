@@ -1,7 +1,10 @@
 import sys
+
 from pylint import lint
+
 THRESHOLD = 10
-run = lint.Run(["helloworld.py"], exit=False)
+
+run = lint.Run(["--rcfile=.pylintrc", "main.py"], exit=False)
 
 score = run.linter.stats.global_note
 
