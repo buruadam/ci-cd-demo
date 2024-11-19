@@ -19,9 +19,4 @@ class BinarisKereses:
             print("Az elem a következő indexen van: ", result)
         else:
             print("Az elem nincs a tömbben!")
-
-    
-kereso = BinarisKereses()
-arr = [2, 3, 4, 10, 40]
-x = 10
-kereso.binker(arr, x)
+            
