@@ -11,7 +11,7 @@ class BinarisKereses:
             else:
                 return mid
         return -1
-    
+
     def binker(self, arr, x):
         result = self.binary_search(arr, x)
         if result != -1:
