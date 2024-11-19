@@ -1,5 +1,4 @@
 class BinarisKereses:
-
     def binary_search(self, arr, x):
         low = 0
         high = len(arr) - 1
@@ -19,4 +18,3 @@ class BinarisKereses:
             print("Az elem a következő indexen van: ", result)
         else:
             print("Az elem nincs a tömbben!")
-            
