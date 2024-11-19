@@ -13,12 +13,15 @@ class BinarisKereses:
                 return mid
         return -1
     
-kereso = BinarisKereses()
+    def binker(self, arr, x):
+        result = self.binary_search(arr, x)
+        if result != -1:
+            print("Az elem a következő indexen van: ", result)
+        else:
+            print("Az elem nincs a tömbben!")
 
+    
+kereso = BinarisKereses()
 arr = [2, 3, 4, 10, 40]
 x = 10
-result = kereso.binary_search(arr, x)
-if result != -1:
-    print("Az elem a következő indexen van: ", result)
-else:
-    print("Az elem nincs a tömbben!")
+kereso.binker(arr, x)
