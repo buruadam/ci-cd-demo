@@ -2,7 +2,10 @@
 
 disable=
 	consider-using-f-string,
-        too-public-methods
+        C0114,
+        C0115,
+        C0116
+
 
 max-line-length=100
 attr-naming-style=any
