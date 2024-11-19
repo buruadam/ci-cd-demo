@@ -1,6 +1,6 @@
 class BinarisKereses:
 
-    def binary_search(arr, x):
+    def binary_search(self, arr, x):
         low = 0
         high = len(arr) - 1
         while low <= high:
@@ -13,10 +13,12 @@ class BinarisKereses:
                 return mid
         return -1
     
-    arr = [2,3,4,10,40]
-    x = 10
-    result = binary_search(arr, x)
-    if result != -1:
-        print("Az elem a következő indexen van: ", str(result))
-    else:
-        print("Az elem nincs a tömbben!")
+kereso = BinarisKereses()
+
+arr = [2, 3, 4, 10, 40]
+x = 10
+result = kereso.binary_search(arr, x)
+if result != -1:
+    print("Az elem a következő indexen van: ", result)
+else:
+    print("Az elem nincs a tömbben!")
