@@ -1,7 +1,8 @@
 [MASTER]
 
 disable=
-	consider-using-f-string
+	consider-using-f-string,
+        too-public-methods
 
 max-line-length=100
 attr-naming-style=any
