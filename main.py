@@ -15,6 +15,6 @@ class BinarisKereses:
     def binker(self, arr, x):
         result = self.binary_search(arr, x)
         if result != -1:
-            print("Az elem a következő indexen van: ", result)
+            print("A keresett elem a következő indexen van: ", result)
         else:
             print("Az elem nincs a tömbben!")
